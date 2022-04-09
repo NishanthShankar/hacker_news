@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostItem /> renders 1`] = `
+<QueryClientProvider
+  client={
+    QueryClient {
+      "defaultOptions": Object {
+        "queries": Object {
+          "refetchOnWindowFocus": false,
+        },
+      },
+      "mutationCache": MutationCache {
+        "config": Object {},
+        "listeners": Array [],
+        "mutationId": 0,
+        "mutations": Array [],
+      },
+      "mutationDefaults": Array [],
+      "queryCache": QueryCache {
+        "config": Object {},
+        "listeners": Array [],
+        "queries": Array [
+          Query {
+            "abortSignalConsumed": false,
+            "cache": [Circular],
+            "cacheTime": 300000,
+            "defaultOptions": undefined,
+            "gcTimeout": undefined,
+            "hadObservers": true,
+            "initialState": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": false,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "idle",
+            },
+            "meta": undefined,
+            "observers": Array [
+              QueryObserver {
+                "client": [Circular],
+                "currentQuery": [Circular],
+                "currentQueryInitialState": Object {
+                  "data": undefined,
+                  "dataUpdateCount": 0,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdateCount": 0,
+                  "errorUpdatedAt": 0,
+                  "fetchFailureCount": 0,
+                  "fetchMeta": null,
+                  "isFetching": false,
+                  "isInvalidated": false,
+                  "isPaused": false,
+                  "status": "idle",
+                },
+                "currentRefetchInterval": false,
+                "currentResult": Object {
+                  "data": undefined,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdatedAt": 0,
+                  "failureCount": 0,
+                  "isError": false,
+                  "isFetched": false,
+                  "isFetchedAfterMount": false,
+                  "isFetching": true,
+                  "isIdle": false,
+                  "isLoading": true,
+                  "isLoadingError": false,
+                  "isPlaceholderData": false,
+                  "isPreviousData": false,
+                  "isRefetchError": false,
+                  "isRefetching": false,
+                  "isStale": true,
+                  "isSuccess": false,
+                  "refetch": [Function],
+                  "remove": [Function],
+                  "status": "loading",
+                },
+                "currentResultOptions": Object {
+                  "_defaulted": true,
+                  "optimisticResults": true,
+                  "queryFn": [Function],
+                  "queryHash": "[\\"item\\",\\"30965352\\"]",
+                  "queryKey": Array [
+                    "item",
+                    "30965352",
+                  ],
+                  "refetchOnWindowFocus": false,
+                },
+                "currentResultState": Object {
+                  "data": undefined,
+                  "dataUpdateCount": 0,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdateCount": 0,
+                  "errorUpdatedAt": 0,
+                  "fetchFailureCount": 0,
+                  "fetchMeta": null,
+                  "isFetching": true,
+                  "isInvalidated": false,
+                  "isPaused": false,
+                  "status": "loading",
+                },
+                "listeners": Array [
+                  [Function],
+                ],
+                "options": Object {
+                  "_defaulted": true,
+                  "optimisticResults": true,
+                  "queryFn": [Function],
+                  "queryHash": "[\\"item\\",\\"30965352\\"]",
+                  "queryKey": Array [
+                    "item",
+                    "30965352",
+                  ],
+                  "refetchOnWindowFocus": false,
+                },
+                "previousQueryResult": undefined,
+                "previousSelectError": null,
+                "refetch": [Function],
+                "refetchIntervalId": undefined,
+                "remove": [Function],
+                "staleTimeoutId": undefined,
+                "trackedProps": Array [],
+              },
+            ],
+            "options": Object {
+              "_defaulted": true,
+              "optimisticResults": true,
+              "queryFn": [Function],
+              "queryHash": "[\\"item\\",\\"30965352\\"]",
+              "queryKey": Array [
+                "item",
+                "30965352",
+              ],
+              "refetchOnWindowFocus": false,
+            },
+            "promise": Promise {},
+            "queryHash": "[\\"item\\",\\"30965352\\"]",
+            "queryKey": Array [
+              "item",
+              "30965352",
+            ],
+            "retryer": Retryer {
+              "abort": [Function],
+              "cancel": [Function],
+              "cancelRetry": [Function],
+              "continue": [Function],
+              "continueRetry": [Function],
+              "failureCount": 0,
+              "isPaused": false,
+              "isResolved": false,
+              "isTransportCancelable": false,
+              "promise": Promise {},
+            },
+            "revertState": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": false,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "idle",
+            },
+            "state": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": true,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "loading",
+            },
+          },
+        ],
+        "queriesMap": Object {
+          "[\\"item\\",\\"30965352\\"]": Query {
+            "abortSignalConsumed": false,
+            "cache": [Circular],
+            "cacheTime": 300000,
+            "defaultOptions": undefined,
+            "gcTimeout": undefined,
+            "hadObservers": true,
+            "initialState": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": false,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "idle",
+            },
+            "meta": undefined,
+            "observers": Array [
+              QueryObserver {
+                "client": [Circular],
+                "currentQuery": [Circular],
+                "currentQueryInitialState": Object {
+                  "data": undefined,
+                  "dataUpdateCount": 0,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdateCount": 0,
+                  "errorUpdatedAt": 0,
+                  "fetchFailureCount": 0,
+                  "fetchMeta": null,
+                  "isFetching": false,
+                  "isInvalidated": false,
+                  "isPaused": false,
+                  "status": "idle",
+                },
+                "currentRefetchInterval": false,
+                "currentResult": Object {
+                  "data": undefined,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdatedAt": 0,
+                  "failureCount": 0,
+                  "isError": false,
+                  "isFetched": false,
+                  "isFetchedAfterMount": false,
+                  "isFetching": true,
+                  "isIdle": false,
+                  "isLoading": true,
+                  "isLoadingError": false,
+                  "isPlaceholderData": false,
+                  "isPreviousData": false,
+                  "isRefetchError": false,
+                  "isRefetching": false,
+                  "isStale": true,
+                  "isSuccess": false,
+                  "refetch": [Function],
+                  "remove": [Function],
+                  "status": "loading",
+                },
+                "currentResultOptions": Object {
+                  "_defaulted": true,
+                  "optimisticResults": true,
+                  "queryFn": [Function],
+                  "queryHash": "[\\"item\\",\\"30965352\\"]",
+                  "queryKey": Array [
+                    "item",
+                    "30965352",
+                  ],
+                  "refetchOnWindowFocus": false,
+                },
+                "currentResultState": Object {
+                  "data": undefined,
+                  "dataUpdateCount": 0,
+                  "dataUpdatedAt": 0,
+                  "error": null,
+                  "errorUpdateCount": 0,
+                  "errorUpdatedAt": 0,
+                  "fetchFailureCount": 0,
+                  "fetchMeta": null,
+                  "isFetching": true,
+                  "isInvalidated": false,
+                  "isPaused": false,
+                  "status": "loading",
+                },
+                "listeners": Array [
+                  [Function],
+                ],
+                "options": Object {
+                  "_defaulted": true,
+                  "optimisticResults": true,
+                  "queryFn": [Function],
+                  "queryHash": "[\\"item\\",\\"30965352\\"]",
+                  "queryKey": Array [
+                    "item",
+                    "30965352",
+                  ],
+                  "refetchOnWindowFocus": false,
+                },
+                "previousQueryResult": undefined,
+                "previousSelectError": null,
+                "refetch": [Function],
+                "refetchIntervalId": undefined,
+                "remove": [Function],
+                "staleTimeoutId": undefined,
+                "trackedProps": Array [],
+              },
+            ],
+            "options": Object {
+              "_defaulted": true,
+              "optimisticResults": true,
+              "queryFn": [Function],
+              "queryHash": "[\\"item\\",\\"30965352\\"]",
+              "queryKey": Array [
+                "item",
+                "30965352",
+              ],
+              "refetchOnWindowFocus": false,
+            },
+            "promise": Promise {},
+            "queryHash": "[\\"item\\",\\"30965352\\"]",
+            "queryKey": Array [
+              "item",
+              "30965352",
+            ],
+            "retryer": Retryer {
+              "abort": [Function],
+              "cancel": [Function],
+              "cancelRetry": [Function],
+              "continue": [Function],
+              "continueRetry": [Function],
+              "failureCount": 0,
+              "isPaused": false,
+              "isResolved": false,
+              "isTransportCancelable": false,
+              "promise": Promise {},
+            },
+            "revertState": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": false,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "idle",
+            },
+            "state": Object {
+              "data": undefined,
+              "dataUpdateCount": 0,
+              "dataUpdatedAt": 0,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchMeta": null,
+              "isFetching": true,
+              "isInvalidated": false,
+              "isPaused": false,
+              "status": "loading",
+            },
+          },
+        },
+      },
+      "queryDefaults": Array [],
+      "unsubscribeFocus": [Function],
+      "unsubscribeOnline": [Function],
+    }
+  }
+>
+  <PostItem
+    id="30965352"
+  >
+    <View>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+              }
+            }
+          />
+        </View>
+        <View>
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+              }
+            }
+          />
+        </View>
+      </div>
+    </View>
+  </PostItem>
+</QueryClientProvider>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AutoFetcher /> renders null with hide props 1`] = `""`;
+
+exports[`<AutoFetcher /> renders without props 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": 100,
+      "justifyContent": "center",
+      "width": 100,
+    }
+  }
+>
+  <Spinner />
+</div>
+`;

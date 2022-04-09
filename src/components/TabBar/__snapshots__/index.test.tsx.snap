@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabBar /> renders without props 1`] = `
+<BrowserRouter>
+  <TabBar />
+</BrowserRouter>
+`;

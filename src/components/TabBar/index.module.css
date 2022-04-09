@@ -1,0 +1,17 @@
+.container { 
+  margin:18px;
+  margin-left:30px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 999px;
+  margin-right: 6px;
+  font-size: 12px;
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+
+.selected {
+  color: white;
+  background-color: black;
+}
